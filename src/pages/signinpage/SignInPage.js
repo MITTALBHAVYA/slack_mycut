@@ -32,7 +32,7 @@ const SignInPage = () => {
           <span className='or'>OR</span>
         <form>
         <input type="text" placeholder="name@workemail.com" className="signin-email"/>
-          <button type="submit" className="sub-btn">Sign in with Email</button>
+        <button type="submit" className="sub-btn">Sign in with Email</button>
         </form>
         {/* Or, if you prefer buttons separately */}
       </div>
