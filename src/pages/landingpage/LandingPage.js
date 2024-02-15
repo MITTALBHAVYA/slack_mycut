@@ -3,7 +3,7 @@ import PageLayout from '../../components/PageLayout';
 import { Link } from 'react-router-dom';
 import '../../style/style.css';
 import './LandingPage.css'
-import SpaceRobot from '../../components/SpaceRobot/SpaceRobot'
+import SpaceRobot from '../../components/SpaceRobot/SpaceRobot';
 const LandingPage = () => {
   return (
     <PageLayout>

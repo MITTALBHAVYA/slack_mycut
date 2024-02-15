@@ -3,6 +3,8 @@ import PageLayout from '../../components/PageLayout';
 import { Link } from 'react-router-dom';
 import './SignInPage.css'
 import '../../style/style.css';
+import SpaceRobot from '../../components/SpaceRobot/SpaceRobot';
+
 
 const SignInPage = () => {
   return (
@@ -34,6 +36,7 @@ const SignInPage = () => {
         </form>
         {/* Or, if you prefer buttons separately */}
       </div>
+      <SpaceRobot/>
     </PageLayout>
   );
 };
