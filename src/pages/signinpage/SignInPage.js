@@ -28,7 +28,7 @@ const SignInPage = () => {
         <p className='signin-sugg'>We suggest using the email address that you use at work</p>
         
         {/* Your form or sign-in content can go here */}
-          <button className='signin-ggl'><img src='./images/google_icon.png' alt='G' className='gimg'/><span>Sign in with google</span></button>
+          <button className='signin-ggl'><img src='./images/google_icon.png' alt='G' className='gimg'/><span className='sgnggl'>Sign in with google</span></button>
           <span className='or'>OR</span>
         <form>
         <input type="text" placeholder="name@workemail.com" className="signin-email"/>

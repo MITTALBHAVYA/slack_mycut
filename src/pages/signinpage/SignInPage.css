@@ -82,19 +82,23 @@ margin-bottom: 75px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 65%; 
-  height: 50px; 
-  border-radius: 15px; 
+  width: 17em;
+  height: 3em;
+  border-radius: 8px;
   font-size: 20px; 
   border: 0.1em solid #FFFFFF; 
   background: linear-gradient(0deg, #d9d9d9, #d9d9d9), 
     linear-gradient(0deg, #ffffff, #ffffff); 
   box-sizing: border-box;
   margin-bottom: 10px;
+  color: #000000;
+}
+.sgnggl{
+  font-size: 1.2em;
 }
 .gimg{
-  height: 36px;
-  width: 36px;
+  height: 2.1em;
+  width: 2.1em;
   margin-right: 10%;
 }
 .or{
@@ -107,9 +111,9 @@ margin-bottom: 75px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 126%; 
-  height: 50px; 
-  border-radius: 15px; 
+  width: 17em;
+  height: 3em;
+  border-radius: 8px; 
   font-size: 20px; 
   border: 0.1em solid #FFFFFF; 
   background: linear-gradient(0deg, #d9d9d9, #d9d9d9), 
@@ -126,9 +130,9 @@ margin-bottom: 75px;
   text-align: center;
   color: #FFFFFF;
   background-color: #4A154B;
-  width: 126%; 
-  height: 50px; 
-  border-radius: 15px; 
+  width: 17em;
+  height: 3em;
+  border-radius: 8px;
   font-size: 20px; 
   margin-top: 10px;
   border: none;
