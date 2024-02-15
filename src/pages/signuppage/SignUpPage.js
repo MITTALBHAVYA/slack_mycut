@@ -1,11 +1,9 @@
 import React from 'react';
 import PageLayout from '../../components/PageLayout';
 import { Link } from 'react-router-dom';
-
 import '../../style/style.css';
-import './SignUpPage.css'
-
-
+import './SignUpPage.css';
+import SpaceRobot from '../../components/SpaceRobot/SpaceRobot';
 
 const SignUpPage = () => {
   return (
@@ -16,8 +14,27 @@ const SignUpPage = () => {
           <Link to="/">SLACK</Link>
         </div>
       </nav>
-      <h1>Sign Up</h1>
-      {/* Additional sign-up page content */}
+      <div className="centered-container">
+        <h1>Sign up</h1>
+        <p className="sign-in-sugg">We suggest using the email address that you use at work</p>
+        <form>
+          <div className="form-group">
+            <input type="text" placeholder="First Name" name="firstName" />
+          </div>
+          <div className="form-group">
+            <input type="text" placeholder="Last Name" name="lastName" />
+          </div>
+          <div className="form-group">
+            <input type="email" placeholder="E-mail" name="email" />
+          </div>
+          <div className="form-group">
+            <input type="password" placeholder="Password" name="password" />
+          </div>
+          <button type="submit"><p className='reg-p'>Register</p></button>
+        </form>
+        <p className='askbro'>Already a member? <Link to="/login" className="login-link">Log in</Link></p>
+      </div>
+      <SpaceRobot/>
     </PageLayout>
   );
 };
