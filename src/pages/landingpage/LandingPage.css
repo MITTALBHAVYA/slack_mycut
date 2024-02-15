@@ -10,7 +10,7 @@
     top: 0;
     left: 0;
     right: 0;
-    z-index: 2;
+    z-index: 3;
   }
   .logo a{
     color: #FFFFFF;
@@ -80,6 +80,7 @@
     margin-left: 42%;
     margin-bottom: 14%;
     margin-right: 7%;
+    z-index: 3;
   }
   .WhiteText{
     font-family: 'Inter';
@@ -148,7 +149,8 @@
   }
   .bottom-text {
     text-align: center;
-    margin-top: -4%; /* Adjust as needed */
+    margin-top: -4%;
+    z-index: 3; /* Adjust as needed */
   }
   
   .center-text {
