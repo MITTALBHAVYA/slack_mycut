@@ -13,12 +13,12 @@ const LandingPage = () => {
           <Link to="/">SLACK</Link>
         </div>
         <div className="landing-nav-func">
-          <img src="./images/magnifine_glass.png" alt="MG"/>
+          <img src="./images/magnifine_glass.png" alt="MG" />
           <div className="links">
             <Link to="/signin">Sign In</Link>
           </div>
           <div className="explore-button">
-            <button>EXPLORE</button>
+            <button >EXPLORE</button>
           </div>
         </div>
       </nav>
@@ -32,13 +32,13 @@ const LandingPage = () => {
         </div>
         <div className="signup_btns">
           <button className="email_signup_btn"><span>SIGN UP WITH EMAIL ADDRESS</span></button>
-          <button className="ggl_signup_btn"><img src='./images/google_icon.png' alt='G' className='gimg'/><span>SIGN UP WITH GOOGLE</span></button>
+          <button className="ggl_signup_btn"><img src='./images/google_icon.png' alt='G' className='gimg' /><span>SIGN UP WITH GOOGLE</span></button>
         </div>
       </div>
       <div className="bottom-text">
         <p className="center-text">Slack is free to try for as long as you like</p>
       </div>
-      <SpaceRobot/>
+      <SpaceRobot />
     </PageLayout>
   );
 };

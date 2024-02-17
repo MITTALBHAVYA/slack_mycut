@@ -37,17 +37,21 @@ h1{
 }
 
 .sign-in-sugg{
-  text-align: center;
+  margin-top: 5px;
   font-family: 'Quicksand';
-  letter-spacing: 0.1em;
-  margin-top: 2%;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  margin-bottom: 70px;
+  font-size: 1vw;
 }
 
 .login-link{
   color: #FFFFFF;
 }
 input{
-  width: 27em;
+  width: 30em;
   height: 4em;
   margin: 0.7em;
   border-radius: 8px; 
@@ -59,12 +63,13 @@ input{
 }
 input::placeholder{
   color: black;
-  font-size: 150%;
+  font-size: 130%;
+  font-weight: 500;
 }
 button{
-  width: 27em;
+  width: 30em;
   height: 4em;
-  margin-top: 1em;
+  margin-top: 3em;
   background-color: #4A154B;
   border: none;
   border-radius: 8px;
