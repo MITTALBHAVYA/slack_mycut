@@ -13,6 +13,12 @@ const SignUpPage = () => {
         <div className="logo">
           <Link to="/">SLACK</Link>
         </div>
+        <div className="signin-nav-func">
+          <div className='question'>Already have an account?</div>
+          <div className='links_signup'>
+          <Link to="/signin">Login to your account</Link>
+          </div>
+        </div>
       </nav>
       <div className="centered-container">
         <h1>Sign up</h1>
@@ -32,7 +38,7 @@ const SignUpPage = () => {
           </div>
           <button type="submit"><p className='reg-p'>Register</p></button>
         </form>
-        <p className='askbro'>Already a member? <Link to="/login" className="login-link">Log in</Link></p>
+        <p className='askbro'>Already a member? <Link to="/signin" className="login-link">Log in</Link></p>
       </div>
       <SpaceRobot/>
     </PageLayout>

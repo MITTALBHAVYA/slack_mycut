@@ -4,15 +4,18 @@
     background-color: transparent;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     z-index: 2;
-    transition: transform 0.5s ease;
+    transition: transform 1s ease;
   }
   
   .space-robot.right {
     transform: translateX(95%);
+    /* transform: rotate(-360deg); */
   }
   
   .space-robot.left {
     transform: translateX(-95%);
+    /* transform: rotate(360deg); */
+
   }
   
   .space-robot svg {
