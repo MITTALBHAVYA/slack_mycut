@@ -27,9 +27,7 @@
 }
   .signin-nav-func{
     display: flex;
-    padding-right: 25px;
     flex-direction: column;
-    margin-right: 15px;
   }
   .question{
     font-family: 'Quicksand';

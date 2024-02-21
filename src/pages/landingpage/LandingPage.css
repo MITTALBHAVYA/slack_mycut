@@ -1,10 +1,8 @@
-/* src/pages/LandingPage/LandingPage.css */
-/*joo*/
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0); /* Transparent background */
+    background-color: rgba(0, 0, 0, 0);
     padding: 15px;
     position: fixed;
     top: 0;
@@ -63,54 +61,62 @@
     font-size: 1.2em;
     cursor: pointer;
 }
-  .explore-button button {
-    background: transparent;
-    border: 1px solid white;
-    color: white;
-    padding: 7px 50px;
-    cursor: pointer;
-    border-radius: 8px;
-    font-weight: bold;
-    width: 10vw;
-  }
+.explore-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.explore-button button {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: bold;
+  width: 12vw; 
+  height: 4vw;
+  text-align: center;
+  font-size: 1.5vw; 
+  line-height: 2;
+  margin: 0;
+}
+
+.explore-button button:hover {
+  background-color: #3498db;
+  color: #ffffff;
+}
 
   .content {
-     /* Adjust margin to account for fixed navbar */
-    /* border: 2px solid black; */
     position: relative;
     top: 1vw;
     font-size: 1.2em;
   }
   
-  /* Add media queries for responsiveness as needed */
   .right-side-area {
     display: flex;
     flex-direction: column;
-    /* align-items: flex-start; */
-    /* padding: 20px; */
     margin-left: 42%;
     margin-bottom: 14%;
     margin-right: 7%;
     margin-top: 6%;
     z-index: 3;
-    /* border: 2px solid white; */
     padding-top: 0%;
   }
-  .WhiteText{
-    font-family: 'Inter';
-    font-weight: bold;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
-    color: #FFFFFF;
-    /* line-height: auto; */
-    margin-top: -8%;
-    margin-bottom: 1%;
-  }
+  .WhiteText,
   .YelloText{
     font-family: 'Inter';
     font-weight: bold;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  }
+  .WhiteText{ 
+    color: #FFFFFF;
+    margin-top: -8%;
+    margin-bottom: 1%;
+  }
+  .YelloText{
     color: #FFB409;
-    line-height: auto;
     margin-top: 0%;
     margin-bottom: 8%;
   }
@@ -122,56 +128,61 @@
   }
   .content {
     max-width: 600px;
-    /* margin-bottom: 20px; */
     margin-top: 0;
   }
   
-  .signup_btns {
-    display: flex;
-    gap: 10px;
-    margin-top: 2vw;
-  }
-  
-  .email_signup_btn {
-    background-color:#FFFFFF;
-    color: black;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    width: 20vw;
-    height: 3.5vw;
-  }
-  .email_signup_btn span{
-    color: #31304D;
-    font-weight: bold;
-    font-family: 'Inter';
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
-    
-  }
-  .ggl_signup_btn {
-    background-color: #FFB409; /* Google Blue */
-    color: black;
-    border: none;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    width: 20vw;
-    height: 3.5vw;
-  }
-  .ggl_signup_btn span{
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
-    font-weight: bold;
-    font-family: 'Inter';
-    margin-left: 1.5vw;
-  }
-  .ggl_signup_btn img{
-    margin-left: 0.5vw;
-    height: 2.5vw;
-    width: 2.5vw;
-    /* border-top-left-radius: 0.4vw;
-    border-bottom-left-radius: 0.4vw; */
-    border-radius: 0.3vw;
-  }
+ .signup_btns {
+  display: flex;
+  gap: 10px;
+  margin-top: 2vw;
+}
+
+.email_signup_btn,
+.ggl_signup_btn {
+  overflow: hidden; 
+  white-space: nowrap;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  width: 20vw;
+  height: 4.5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center; 
+  border-radius: 0.25em;
+}
+.ggl_signup_btn:hover {
+  background-color: #3498db; 
+  color: #ffffff;
+}
+.email_signup_btn:hover{
+  background-color: #d85bb5;
+  color: wheat;
+}
+.email_signup_btn {
+  background-color: #FFFFFF;
+  color: #31304D; ;
+}
+
+.email_signup_btn span,
+.ggl_signup_btn span{
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  font-weight: bold;
+  font-family: 'Inter';
+  font-size: 1.25vw;
+}
+.ggl_signup_btn {
+  background-color: #FFB409;
+  color: black; 
+}
+
+.ggl_signup_btn img {
+  margin-left: 0.5vw;
+  height: 2.5vw;
+  width: 2.5vw;
+  border-radius: 0.3vw;
+}
   .bottom-text {
     text-align: center;
     margin-top: -7%;

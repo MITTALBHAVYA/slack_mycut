@@ -13,12 +13,6 @@ const SignUpPage = () => {
         <div className="logo">
           <Link to="/">SLACK</Link>
         </div>
-        <div className="signin-nav-func">
-          <div className='question'>Already have an account?</div>
-          <div className='links_signup'>
-          <Link to="/signin">Login to your account</Link>
-          </div>
-        </div>
       </nav>
       <div className="centered-container">
         <h1>Sign up</h1>
