@@ -58,14 +58,14 @@
   }
   .signin-msg{
    width: 100%;
-   font-family: 'Inter';
    font-style: normal;
-   font-weight: bold;
-   font-size: 3.5vw;
    color: #FFFFFF;
-   margin-bottom: 0px;
    margin-top: 0px;
    text-align: center;
+   font-size: 290%;
+  font-family: 'Inter';
+  font-weight: bold;
+  margin-bottom: 0%;
 }
 .signin-sugg{
   margin-top: 5px;
@@ -74,8 +74,8 @@ font-style: normal;
 font-weight: 700;
 letter-spacing: 0.04em;
 color: #FFFFFF;
-margin-bottom: 70px;
-font-size: 1vw;
+margin-bottom: 2%;
+font-size: 16px;
 }
 .signin-ggl { 
   display: flex;
@@ -85,13 +85,12 @@ font-size: 1vw;
   height: 3em;
   border-radius: 8px;
   font-size: 20px; 
-  /* border: 0.1em solid #FFFFFF;  */
-  /* background: linear-gradient(0deg, #d9d9d9, #d9d9d9), 
-    linear-gradient(0deg, #ffffff, #ffffff);  */
   box-sizing: border-box;
   margin-bottom: 10px;
   color: #000000;
-  background-color: #FFB409;
+  border: 0.1em solid #FFFFFF; 
+  background: linear-gradient(0deg, #d9d9d9, #d9d9d9), 
+  linear-gradient(0deg, #ffffff, #ffffff);
 }
 .sgnggl{
   font-size: 1em;
@@ -111,9 +110,9 @@ font-size: 1vw;
   font-family: 'Quicksand';
   font-weight: bold;
   color: #FFFFFF;
-  font-size: 165%;
-  margin-top: 0.5vw;
-  margin-bottom: 2vw;
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .signin-email{
   display: flex;
@@ -132,17 +131,18 @@ font-size: 1vw;
 .signin-email::placeholder {
   text-align: center;
   color: #000000; /* Replace with the desired color code */
-  font-size: 1.3vw;
+  font-size: 20px;
 }
 .sub-btn{
   text-align: center;
   color: #FFFFFF;
   background-color: #4A154B;
-  width: 26em;
-  height: 3.4em;
+  width: 22em;
+  height: 3em;
   border-radius: 8px;
-  font-size: 1vw; 
+  font-size: 20px; 
   border: none;
+  margin-top: 1em;
 }
   /* Add media queries for responsiveness as needed */
   
