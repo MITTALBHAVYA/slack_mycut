@@ -32,9 +32,9 @@ const SpaceRobot = () => {
 
           setPosition(newPosition);
           setSize(newSize);
-        }, 4000); // Adjust the rotation delay as needed
+        }, 6000); // Adjust the rotation delay as needed
       }, 2000); // Adjust the initial delay as needed
-    }, 6000); // Adjust the total interval time as needed
+    }, 8000); // Adjust the total interval time as needed
 
     return () => clearInterval(intervalId);
   }, []);
